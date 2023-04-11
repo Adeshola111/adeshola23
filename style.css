@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgb(243, 243, 243)),url(/images/Oak\ Cash\ Name.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*moving img/Oak Cash Logo PSD-Recoveredto the left*/
+}
+.hello{
+    position: fixed;
+    height: 200, px;
+    left: 10px;
+    width: 250px;
+}
+.logo{
+    margin: 50px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 10px 12px;
+}
+nav ul{
+    list-style: none;  
+}
+nav ul li{
+    display: inline;
+    padding: 0 30px;
+    font-size: 1.1em;
+    color: #fff;
+}
+section{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+section h1{
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.banner-text p{
+     font-size: medium;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+    background: transparent;
+    margin-top: 50%;
+    padding: 10px 40px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sammy img{
+    display: flex;
+}
